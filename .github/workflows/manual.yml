@@ -11,14 +11,14 @@ jobs:
       - name: Print greeting
         run: echo "Hello from GitHub Actions, fantastic world!"
       
-      -name: show current time 
-       run: date
+      - name: Show current time 
+        run: date
 
-      -name: show system information
-       run: uname -a
+      - name: show system information
+        run: uname -a
 
-      -name: Multiple commands
-       run: |
+      - name: Multiple commands
+        run: |
          ls -la
          python -v
          echo "Running multiple commands"
